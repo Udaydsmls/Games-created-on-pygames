@@ -8,12 +8,12 @@ WIN_HEIGHT = 400
 WIN_WIDTH = 600
 
 DINOIMGS = pygame.transform.scale(pygame.image.load
-                                  (os.path.join("Dino", "D:/Uday/python game/Dino/Pikachu.png")), (62, 70))
+                                  (os.path.join("Dino", "dinno.png")), (62, 70))
 CACTUSIMG = pygame.transform.scale(pygame.image.load
-                                   (os.path.join("Dino", "D:/Uday/python game/Dino/CACTUS.png")), (65, 75))
+                                   (os.path.join("Dino", "CACTUS.png")), (65, 75))
 BASEIMG = pygame.transform.scale(pygame.image.load
-                                 (os.path.join("Dino", "D:/Uday/python game/Dino/BASE.jpg")), (600, 100))
-BGIMG = pygame.image.load(os.path.join("Dino", "D:/Uday/python game/Dino/BGround.png"))
+                                 (os.path.join("Dino", "BASE.jpg")), (600, 100))
+BGIMG = pygame.image.load(os.path.join("Dino", "BGround.png"))
 STAT_FONT = pygame.font.SysFont("comicsans", 50)
 
 
